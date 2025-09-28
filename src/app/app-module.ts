@@ -10,6 +10,7 @@ import { NavBarComponent } from './nav-bar-component/nav-bar-component';
 import { ProfessorComponent } from './professor-component/professor-component';
 import { DiciplinasComponent } from './diciplinas-component/diciplinas-component';
 import { ReactiveFormsModule } from '@angular/forms';
+import { provideHttpClient } from '@angular/common/http';
 
 @NgModule({
   declarations: [
@@ -27,7 +28,8 @@ import { ReactiveFormsModule } from '@angular/forms';
     ReactiveFormsModule
   ],
   providers: [
-    provideBrowserGlobalErrorListeners()
+    provideBrowserGlobalErrorListeners(),
+    provideHttpClient()
   ],
   bootstrap: [App]
 })

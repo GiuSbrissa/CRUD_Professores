@@ -16,4 +16,11 @@
   "profile": {
     "name": "typicode"
   }
+  {
+  "products": [
+      { "ID": 1, "Name": "Product 1", "Phone": 10.99, "Subject": "Description for Product 1", "Email":"teste      " },
+      { "id": 2, "name": "Product 2", "price": 20.99, "description": "Description for Product 2" },
+      { "id": 3, "name": "Product 3", "price": 30.99, "description": "Description for Product 3" }
+  ]
+}
 }
